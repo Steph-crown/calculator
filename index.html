@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta name="theme-color" content ="#171636">
+      <meta name ="viewport" content="width = device-width, initial-scale=1">
+      <title>STEPH Calculator</title>
+      <link rel="icon" href="favicon.png" sizes="16x16" type="image/png"> 
+      <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+      <div id="advert"></div>
+      <section>
+        <h3><span>Steph </span>Calculator</h3>
+        <div class="screen">
+          <p id="notif"></p>
+          <input type="text" id="question"readonly>
+          <input type="text" id="result" placeholder="0" readonly>
+        </div>
+        <div id="hyp"></div>
+        <div class="buttons">
+          <div class="science">
+          <div class="buttonSpace"><sup></sup><br><button class="important" onclick="shift()">SHIFT</button></div>
+          <div class="buttonSpace">sin<sup>-1</sup><br><button id="sin( Mat.sin(" onclick="append(this)" >sin</button></div>
+          <div class="buttonSpace">cos<sup>-1</sup><br><button id="cos( Mat.cos("onclick="append(this)">cos</button></div>
+          <div class="buttonSpace">tan<sup>-1</sup><br><button id="tan( Mat.tan("onclick="append(this)">tan</button></div>
+          <div class="buttonSpace"><sup></sup><br><button id="ln( Math.log("onclick="append(this)">ln</button></div>
+          <div class="buttonSpace"><sup></sup><br><button onclick="hyp()">hyp</button></div>
+          <div class="buttonSpace">&#8731;&#9633;<sup></sup><br><button id="√( Math.sqrt("onclick="append(this)">&#8730;&#9633;</button></div>
+          <div class="buttonSpace">x<sup>3</sup><br><button id="² **2"onclick="append(this)">x<sup>2</sup><br></button></div>
+          <div class="buttonSpace"><sup></sup><br><button id="^ **"onclick="append(this)">x<sup>&#9633;</sup></button></div>
+          <div class="buttonSpace"><sup></sup><br><button id="log( Math.log"onclick="append(this)">log</button></div>
+          <div class="buttonSpace"><sup></sup><br><button class="important" onclick="clears()">CLR</button></div>
+          <div class="buttonSpace"><sup></sup><br><button id="% /100"onclick="append(this)">%</button></div>
+          <div class="buttonSpace"><sup></sup><br><button id="e^( Math.exp("onclick="append(this)">e<sup>&#9633;</sup></button></div>
+          <div class="buttonSpace"><sup></sup><br><button id="( ("onclick="append(this)">(</button></div>
+          <div class="buttonSpace"><sup></sup><br><button id=") )" onclick="append(this)">)</button></div>
+        </div>
+        <div class="basic">
+          <div class="buttonSpace"><sup></sup><br><button id="7 7"onclick="append(this)">7</button></div>
+          <div class="buttonSpace"><sup></sup><br><button id="8 8"onclick="append(this)">8</button></div>
+          <div class="buttonSpace"><sup></sup><br><button id="9 9"onclick="append(this)">9</button></div>
+          <div class="buttonSpace"><sup></sup><br><button class="important" onclick="delet()">DEL</button></div>
+          <div class="buttonSpace"><sup></sup><br><button class="important" onclick="clears()">AC</button></div>
+          <div class="buttonSpace"><sup></sup><br><button id="4 4"onclick="append(this)">4</button></div>
+          <div class="buttonSpace"><sup></sup><br><button id="5 5"onclick="append(this)">5</button></div>
+          <div class="buttonSpace"><sup></sup><br><button id="6 6"onclick="append(this)">6</button></div>
+          <div class="buttonSpace"><sup></sup><br><button id="× *"onclick="append(this)">×</button></div>
+          <div class="buttonSpace"><sup></sup><br><button id="÷ /"onclick="append(this)">÷</button></div>
+          <div class="buttonSpace"><sup></sup><br><button id="1 1"onclick="append(this)">1</button></div>
+          <div class="buttonSpace"><sup></sup><br><button id="2 2"onclick="append(this)">2</button></div>
+          <div class="buttonSpace"><sup></sup><br><button id="3 3"onclick="append(this)">3</button></div>
+          <div class="buttonSpace"><sup></sup><br><button id="&#8722 -"onclick="append(this)">&#8722</button></div>
+          <div class="buttonSpace"><sup></sup><br><button id="+ +"onclick="append(this)">+</button></div>
+          <div class="buttonSpace"><sup></sup><br><button class="important" onclick="equals()">=</button></div>
+          <div class="buttonSpace"><sup></sup><br><button id="0 0"onclick="append(this)">0</button></div>
+          <div class="buttonSpace"><sup></sup><br><button id="• ."onclick="append(this)">•</button></div>
+          <div class="buttonSpace">π<sup></sup><br><button id="e Math.E"onclick="append(this)">EXP</button></div>
+          <div class="buttonSpace"><sup></sup><br><button class="important" onclick="equals()"onclick="append(this)">=</button></div>
+        </div>
+      </div>
+    </section>
+    <footer>Created By <a href="https://steph-crown.github.io/portfolio">Steph Crown</a></footer>
+    <script src="main.js"></script>
+  </body>
+</html>
