@@ -40,7 +40,7 @@ button:active {box-shadow:0 0}
 @font-face {font-family:text2;src:url(JosefinLight.ttf);}
 footer{
   font-family:text1; position:relative;
-  text-align:center;margin-top:20px;}
+  text-align:center;margin-top:20px;z-index:-5;}
   footer a{color: var(--yel);}
 @media (min-aspect-ratio :4/3) {
   section {position:relative;}body {padding:20px 0;}
@@ -51,7 +51,7 @@ footer{
 @media (min-height:610px) {
   footer {
     bottom:0;left:0;right:0;
-    margin:auto;position:absolute;
+    margin:auto;position:relative;
     }
   section{position:relative;}
 }
