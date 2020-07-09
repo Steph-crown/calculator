@@ -50,7 +50,7 @@ footer{
 }
 @media (min-height:610px) {
   footer {
-    bottom:calc((100vh - 600px) / 3);left:0;right:0;
+    bottom:0;left:0;right:0;
     margin:auto;position:absolute;
     }
   section{position:relative;}
